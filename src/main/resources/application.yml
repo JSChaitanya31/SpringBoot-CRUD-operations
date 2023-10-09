@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: Sekuel#2001$%
+    url: jdbc:mysql://localhost:3306/course_dtls
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
